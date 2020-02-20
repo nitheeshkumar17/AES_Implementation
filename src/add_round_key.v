@@ -3,9 +3,9 @@ module add_round_key (
 		input [127:0] text,
 		input [127:0] key,
 		input clk,
-		output [127:0] new_text);
+		output reg [127:0] new_text);
 
 always @(posedge clk) begin
-new_text<=text xor key;
+new_text<= key ^ text;
 end
 endmodule 
