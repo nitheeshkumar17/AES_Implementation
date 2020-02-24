@@ -259,7 +259,7 @@ case (text)
 8'hFD : sub_text <= 8'h54;
 8'hFE : sub_text <= 8'hBB;
 8'hFF : sub_text <= 8'h16;
-default : sub_text <= 8'h00;
+default : sub_text <= 8'h63;
 endcase
 end 
 endmodule
