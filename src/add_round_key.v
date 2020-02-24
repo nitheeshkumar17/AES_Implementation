@@ -2,10 +2,8 @@
 module add_round_key (
 		input [127:0] text,
 		input [127:0] key,
-		input clk,
-		output reg [127:0] new_text);
+		output [127:0] new_text);
 
-always @(posedge clk) begin
-new_text<= key ^ text;
-end
+assign new_text = text ^ key;
+
 endmodule 
