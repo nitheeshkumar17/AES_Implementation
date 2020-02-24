@@ -19,15 +19,15 @@ generate
 		assign r_int_key[4*(i-1)+8]= r_int_key[4*(i-1)+7] ^ r_int_key[4*(i-1)+4];
 	end
 endgenerate
-assign round_key = {r_int_key[44],r_int_key[43],r_int_key[42],r_int_key[41],
-		    r_int_key[40],r_int_key[39],r_int_key[38],r_int_key[37],
-		    r_int_key[36],r_int_key[35],r_int_key[34],r_int_key[33],
-		    r_int_key[32],r_int_key[31],r_int_key[30],r_int_key[29],
-		    r_int_key[28],r_int_key[27],r_int_key[26],r_int_key[25],
-		    r_int_key[24],r_int_key[23],r_int_key[22],r_int_key[21],
-		    r_int_key[20],r_int_key[19],r_int_key[18],r_int_key[17],
-		    r_int_key[16],r_int_key[15],r_int_key[14],r_int_key[13],
-		    r_int_key[12],r_int_key[11],r_int_key[10],r_int_key[9],
-		    r_int_key[8],r_int_key[7],r_int_key[6],r_int_key[5],
-		    r_int_key[4],r_int_key[3],r_int_key[2],r_int_key[1]};
+assign round_key = {r_int_key[41],r_int_key[42],r_int_key[43],r_int_key[44],
+		    r_int_key[37],r_int_key[38],r_int_key[39],r_int_key[40],
+		    r_int_key[33],r_int_key[34],r_int_key[35],r_int_key[36],
+		    r_int_key[29],r_int_key[30],r_int_key[31],r_int_key[32],
+		    r_int_key[25],r_int_key[26],r_int_key[27],r_int_key[28],
+		    r_int_key[21],r_int_key[22],r_int_key[23],r_int_key[24],
+		    r_int_key[17],r_int_key[18],r_int_key[19],r_int_key[20],
+		    r_int_key[13],r_int_key[14],r_int_key[15],r_int_key[16],
+		    r_int_key[9],r_int_key[10],r_int_key[11],r_int_key[12],
+		    r_int_key[5],r_int_key[6],r_int_key[7],r_int_key[8],
+		    r_int_key[1],r_int_key[2],r_int_key[3],r_int_key[4]};
 endmodule
