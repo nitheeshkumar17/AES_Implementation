@@ -1,3 +1,8 @@
+// This module takes a 8-bit input and encode it and gives a 
+// 8-bit output. 
+// Multiplicative Inverse in Galois Field followed 
+// by an affine transformation gives the encoded substitutions.
+
 module sub_bytes (
 	input [7:0] text,
 	output reg [7:0] sub_text);
