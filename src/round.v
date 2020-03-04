@@ -1,3 +1,6 @@
+// This module is a Key Generation module
+// Take a 128-bit key gives a total of 11 keys for 128-bit key length
+
 module round (
 	input [127:0] key,
 	output [1407:0] round_key);
