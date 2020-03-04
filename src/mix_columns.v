@@ -1,3 +1,5 @@
+// This module operates on columns of the state matrix
+
 module mix_columns (
 	input [127:0] text,
 	output reg [127:0] mix_text);
