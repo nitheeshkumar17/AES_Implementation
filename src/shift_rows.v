@@ -1,3 +1,9 @@
+// This module shifts the rows in a partiular fashion.
+// i.e.., No shift in First Row
+//	  1 left shift in Second Row
+//	  2 left shift in Third Row
+//	  3 left shift in Fourth Row
+
 module shift_rows (
 	input [127:0] text,
 	output reg [127:0] shift_text);
