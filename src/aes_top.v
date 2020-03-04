@@ -1,3 +1,5 @@
+// This is the top module of the design 
+
 module aes_top (
 	input [127:0] plain_text,
 	input [127:0] key,
