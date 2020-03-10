@@ -1,3 +1,5 @@
+// This module is inverse S-Box used in the Decryption
+
 module inv_sub_bytes (
 	input [7:0] text,
 	output reg [7:0] inv_sub_text);
